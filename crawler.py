@@ -47,3 +47,8 @@ with open("aws_marketplace_links.txt", "w", encoding="utf-8") as f:
         f.write(link + "\n")
 
 print(f"\nDone. {len(found_links)} links saved to aws_marketplace_links.txt")
+
+import os
+print("\nCurrent directory:", os.getcwd())
+print("Files here:", os.listdir())
+
